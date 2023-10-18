@@ -67,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   int selectedIndex = 0;
 
-  var tabs =[SettingsTab(),TasksList()];
+  var tabs =[TasksList(),SettingsTab()];
 
   void logout() {
     var authProvider = Provider.of<AuthProvider>(context,listen: false);

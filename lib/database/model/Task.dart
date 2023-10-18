@@ -7,7 +7,7 @@ class Task{
   String? description;
   Timestamp? dateTime;
   bool isDone;
-  Task({
+   Task({
     this.id,
     this.title,
     this.dateTime,

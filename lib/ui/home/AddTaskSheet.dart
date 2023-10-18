@@ -14,11 +14,8 @@ class AddTaskBottomSheet extends StatefulWidget {
 
 class _AddTaskBottomSheetState extends State<AddTaskBottomSheet> {
   var formKey = GlobalKey<FormState>();
-
   var desciptionController = TextEditingController();
-
   var titleController = TextEditingController();
-
   @override
   Widget build(BuildContext context) {
     return Container(
